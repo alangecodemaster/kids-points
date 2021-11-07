@@ -3,17 +3,18 @@
   "name": "Kids Point Tracking",
   "icons": [
     {
-      "src": "/budget/small-icon.png",
+      "src": "/kids-points/star-sm.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "200x200"
     },
     {
-      "src": "/budget/big-icon.png",
+      "src": "/kids-points/star.png",
       "type": "image/png",
-      "sizes": "520x520"
+      "sizes": "512x512"
     }
   ],
-  "start_url": "/kids-app/index.html", "background_color": "white",
+  "start_url": "/kids-app/index.html",
+  "background_color": "white",
   "display": "fullscreen",
   "theme_color": "lime"
 }

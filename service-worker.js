@@ -1,10 +1,9 @@
 const kidsApp = "kids-app-v1"
 const assets = [
-  "/budget/",
-  "/budget/index.html",
-  "/budget/css/budget-envelopes.css",
-  "/budget/js/budget-scripts.js",
-  "/budget/favicon.io"
+  "/kids-points/",
+  "/kids-points/index.html",
+  "/kids-points/kids-app.css",
+  "/kids-points/star.png"
 ]
 
 self.addEventListener("install", installEvent => {

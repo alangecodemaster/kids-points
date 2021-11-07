@@ -8,9 +8,9 @@ function addPoint(){
     
     localStorage.setItem(active, newNumber.toString());
   }
-  document.querySelector(`#${active} points`).innerHTML = localStorage.getItem(active);
-  let audio = new Audio('https://res.cloudinary.com/alangecodemaster/video/upload/v1636300626/mixkit-page-forward-single-chime-1107-_AudioTrimmer.com_fx2soy.wav');
-  audio.play();
+//   document.querySelector(`#${active} points`).innerHTML = localStorage.getItem(active);
+//   let audio = new Audio('https://res.cloudinary.com/alangecodemaster/video/upload/v1636300626/mixkit-page-forward-single-chime-1107-_AudioTrimmer.com_fx2soy.wav');
+//   audio.play();
 }
 
 function changeName(name){

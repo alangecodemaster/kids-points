@@ -1,0 +1,19 @@
+{
+  "short_name": "Kids App",
+  "name": "Kids Point Tracking",
+  "icons": [
+    {
+      "src": "/budget/small-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/budget/big-icon.png",
+      "type": "image/png",
+      "sizes": "520x520"
+    }
+  ],
+  "start_url": "/kids-app/index.html", "background_color": "white",
+  "display": "fullscreen",
+  "theme_color": "lime"
+}

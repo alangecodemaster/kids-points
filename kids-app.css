@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+app{
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  font-family: sans-serif;
+}
+.child-container{
+  display: flex;
+}
+.child-container > div{
+  width: 33%;
+  text-align: center;
+  cursor: pointer;
+}
+.child-container > div img{
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: auto;
+  transition: transform .25s;
+}
+.child-container > div.active img{
+  transform: scale(.7);
+}
+
+.point-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.point-items > div{
+  width: 31%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #aaa;
+  padding: 15px;
+  align-items: center;
+  margin-top: 1em;
+  text-align: center;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.point-items > div:hover{
+  filter: invert(1);
+  background: white;
+}
+.point-items > div .explanation{
+  margin-top: 15px;
+}
+app .reset{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3em;
+  cursor: pointer;
+}

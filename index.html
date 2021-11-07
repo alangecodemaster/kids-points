@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kids Points App</title>
+</head>
+<body>
+	<app>
+	  <div class="child-container">
+	    <div id="james" onclick="changeName('james')" class="active">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635995632/james_arjtmb.png" alt="james icon">
+	      <name>James:</name>
+	      <points>0</points>
+	    </div>
+	    <div id="ruby" onclick="changeName('ruby')">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635995608/ruby_wh05tp.png" alt="ruby icon">
+	      <name>Ruby:</name>
+	      <points>0</points>
+	    </div>
+	    <div id="asa" onclick="changeName('asa')">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635995627/asa_iurv8x.png" alt="asa icon">
+	      <name>Asa:</name>
+	      <points>0</points>
+	    </div>
+	  </div>
+	  
+	  
+	  <div class="point-items">
+	    <div onclick="addPoint()" id="cleaning-up">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996643/broom_ly9ic4.png" alt="" >
+	      <div class="explanation">Cleaning Up</div>
+	    </div>
+	    <div onclick="addPoint()" id="laundry">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996643/laundry_ipc6zi.png" alt="" >
+	      <div class="explanation">Laundry</div>
+	    </div>
+	    <div onclick="addPoint()" id="towl">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996643/towel_nfmvlw.png" alt="" >
+	      <div class="explanation">Towel Hanged</div>
+	    </div>
+	    <div onclick="addPoint()" id="getting-in-car">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996644/vehicle_bcvz0o.png" alt="" >
+	      <div class="explanation">Get in Car</div>
+	    </div>
+	    <div onclick="addPoint()" id="dishes-after-eating">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996644/dish-soap_oi5ye5.png" alt="" >
+	      <div class="explanation">Dishes in Sink</div>
+	    </div>
+	    <div onclick="addPoint()" id="using-potty">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996644/toilet_ld71nf.png" alt="" >
+	      <div class="explanation">Used Potty</div>
+	    </div>
+	    <div onclick="addPoint()" id="homework">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996644/homework_fom9d1.png" alt="" >
+	      <div class="explanation">Homework</div>
+	    </div>
+	    <div onclick="addPoint()" id="reading">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996643/book_tqt4yr.png" alt="" >
+	      <div class="explanation">Read a Book</div>
+	    </div>
+	    <div onclick="addPoint()" id="brushing-teeth">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996644/tooth-brush_bgwvi0.png" alt="" >
+	      <div class="explanation">Brushed Teeth</div>
+	    </div>
+	    <div onclick="addPoint()" id="getting-in-bed">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635996644/double-bed_vfeqlu.png" alt="" >
+	      <div class="explanation">Bedtime Fast</div>
+	    </div>
+	    <div onclick="addPoint()" id="veggies">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635998542/broccoli_rm2wxs.png" alt="" >
+	      <div class="explanation">Vegetables</div>
+	    </div>
+	    <div onclick="addPoint()" id="being-kind">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635998566/heart_skfufp.png" alt="" >
+	      <div class="explanation">Being Kind</div>
+	    </div>
+	    <div onclick="addPoint()" id="helping">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635998566/solidarity_sqrsfy.png" alt="" >
+	      <div class="explanation">Helping</div>
+	    </div>
+	    <div onclick="addPoint()" id="shower">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635998565/bath_izgqab.png" alt="" >
+	      <div class="explanation">Showered</div>
+	    </div>
+	    <div onclick="addPoint()" id="clothes">
+	      <img src="https://res.cloudinary.com/alangecodemaster/image/upload/v1635998566/shirt_mhtg1i.png" alt="" >
+	      <div class="explanation">Clothes Picked Up</div>
+	    </div>
+	  </div>
+	  
+	  <p class="reset" onclick="resetPoints()">Reset Points</p>
+	  
+	</app>
+</body>
+</html>

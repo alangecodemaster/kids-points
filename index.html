@@ -8,6 +8,17 @@
 	<link rel="stylesheet" href="/kids-points/kids-app.css">
 	<link rel="shortcut icon" type="image/jpg" href="/kids-points/star.png"/>
 	<link rel="manifest" href="/kids-points/manifest.json">
+	<script>
+		// adding service worker functionality
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function() {
+				navigator.serviceWorker
+				.register("/kids-points/service-worker.js")
+				.then(res => console.log("service worker registered"))
+				.catch(err => console.log("service worker not registered", err))
+			})
+		}
+	</script>
 </head>
 <body>
 	<app>
